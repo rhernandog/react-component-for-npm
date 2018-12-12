@@ -1,0 +1,51 @@
+{
+  "name": "react-component-for-npm",
+  "version": "1.0.0",
+  "description": "Sample for creating a re-usable component in npm",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "npm",
+    "sample"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rhernandog/react-component-for-npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rhernandog/react-component-for-npm.git"
+  },
+  "author": {
+    "name": "Rodrigo Hernando",
+    "email": "rhernandog@gmail.com",
+    "url": "https://github.com/rhernandog/"
+  },
+  "homepage": "https://github.com/rhernandog/react-component-for-npm.git",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.9.0",
+    "eslint-plugin-react": "^7.11.1",
+    "jest": "^23.6.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-testing-library": "^5.3.1"
+  },
+  "peerDependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "gsap": "^2.0.2"
+  }
+}
