@@ -1,6 +1,6 @@
 {
   "name": "react-component-for-npm",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Sample for creating a re-usable component in npm",
   "main": "lib/index.js",
   "scripts": {
@@ -27,7 +27,6 @@
   },
   "homepage": "https://github.com/rhernandog/react-component-for-npm.git",
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.1.5",
     "@babel/core": "^7.1.6",
