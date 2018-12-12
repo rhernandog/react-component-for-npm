@@ -2,7 +2,7 @@
   "name": "react-component-for-npm",
   "version": "1.0.0",
   "description": "Sample for creating a re-usable component in npm",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib",
     "test": "jest"
